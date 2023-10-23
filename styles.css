@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vw;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#nav-bar {
+    position: fixed;
+    float: left;
+    top: 0;
+    left: 0;
+    max-width: 30%;
+    min-width: 22%;
+    background-color: pink;
+    height: 100%;
+}
+
+#nav-bar .header{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: gray;
+    padding-left: 1rem;
+    font-size: 14px;
+    padding-right: 1rem;
+    line-height: 2;
+
+}
+
+#nav-bar a:hover {
+    color: brown; 
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+}
+
+.heading {
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+    text-decoration: underline;
+    padding: 1rem;
+    font-size: 18px;
+}
+
+main {
+    margin-left: 20%;
+}
+
+
+
+.category-html {
+    border: 3px solid black;
+    margin: 0.5rem 0.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.category-html h2 {
+    background-color: lightblue;
+    font-size: 18px;
+    padding: 2px;
+    margin: 5px 10px 5px -10px;
+}
+
+.category-html dt {
+    margin-left: 5px;
+    color: orangered;
+}
+
+.category-html dd {
+    font-size: 15px;
+    padding: 0.25rem;
+    border-bottom: 1px solid black;
+}
+
+td, th{
+    border-bottom: 1px solid black;
+}
+
+.category-css {
+    margin: auto;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.category-css h2 {
+    background-color: lightseagreen;
+    font-size: 18px;
+    padding: 2px;
+    margin: 5px 10px 5px -10px;
+}
+
+.category-css th {
+    color: orangered;
+}
+
+.category-css td {
+    font-size: 15px;
+}

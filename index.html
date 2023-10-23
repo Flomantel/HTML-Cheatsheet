@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CheatSheet</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <header>
+            <div id="nav-bar">
+                <ul>
+                    <li class="header">HTML</li>
+                    <li><a href="#document-summary">Document Summary</a></li>
+                    <li><a href="#document-information">Document Information</a></li>
+                    <li><a href="#document-structure">Document Structure</a></li>
+                    <li><a href="#text-formatting">Text Formatting</a></li>
+                    <li><a href="#links">Links</a></li>
+                    <li><a href="#images">Images</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#audio">Audio</a></li>
+                    <li><a href="#lists">Lists</a></li>
+                    <li><a href="#forms">Forms</a></li>
+                    <li><a href="#input-type-attributes">Input Type Attributes</a></li>
+                    <li><a href="#select-attributes">Select Attributes</a></li>
+                    <li><a href="#object-attributes">Object Attributes</a></li>
+                    <li><a href="#Tables">Tables</a></li>
+                    <li><a href="#object-iframes">Object iFrames</a></li>
+                    <li><a href="#embed-attributes">Embed Attributes</a></li>
+                    <li><a href="#iframe-attributes">iFrame Attributes</a></li>
+                    <li><a href="#html5-new-tags">HTML5 New Tags</a></li>
+                </ul>
+            </div>
+        </header>
+
+    <main>
+        <div class="heading">
+            <h1>HTML & CSS <br> CheatSheet</h1>
+        </div>
+
+        <div class="html">
+            <div id="content">
+                <div id="document-summary" class="category-html">
+                    <h2>Document Summary</h2>
+        
+                    <dt>&lt;html&gt; ... &lt;/html&gt;</dt>
+                    <dd>Creates a HTML File</dd>
+        
+                    <dt>&lt;head&gt; ... &lt;/head&gt;</dt>
+                    <dd>Specify meta data about the webpage</dd>
+        
+                    <dt>&lt;title&gt; ... &lt;/title&gt;</dt>
+                    <dd>Set the title of the webpage</dd>
+        
+                    <dt>&lt;body&gt; ... &lt;/body&gt;</dt>
+                    <dd>Content of the webpage</dd>
+                </div>
+        
+                <div id="document-information" class="category-html">
+                    <h2>Document Information</h2>
+        
+                    <dt>&lt;meta&gt;</dt>
+                    <dd>Set the meta data for the webpage</dd>
+                    
+        
+                    <dt>&lt;link&gt;</dt>
+                    <dd>Link to external scipts to the webpage</dd>
+                    <dd>Set rel, and href</dd>
+        
+                    <dt>&lt;style&gt; ... &lt;/style&gt;</dt>
+                    <dd>Alternative to a external style sheet</dd>
+        
+                    <dt>&lt;script&gt; ... &lt;/script&gt;</dt>
+                    <dd>Add code snippet, typically in JavaScript</dd>
+                </div>
+        
+                <div id="document-structure" class="category-html">
+                    <h2>Document Structure</h2>
+        
+                    <dt>&lt;h1&gt; ... &lt;/h1&gt; ... &lt;h6&gt; ... &lt;/h6&gt;</dt>
+                    <dd>Create heading h1: biggest h6:smallest</dd>
+                    
+                    <dt>&lt;div&gt; ... &lt;/div&gt;</dt>
+                    <dd>Content of a webpage is usually divided into blocks, specified by the div tag</dd>
+        
+                    <dt>&lt;span&gt; ... &lt;/span&gt;</dt>
+                    <dd>Inject inline elements</dd>
+        
+                    <dt>&lt;p&gt; ... &lt;/p&gt;</dt>
+                    <dd>Create a paragraph</dd>
+        
+                    <dt>&lt;br&gt;</dt>
+                    <dd>Line break for webpages</dd>
+        
+                    <dt>&lt;hr&gt;</dt>
+                    <dd>Add horizontel line</dd>
+        
+                </div>
+        
+                <div id="text-formatting" class="category-html">
+                    <h2>Text Formatting</h2>
+        
+                    <dt>&lt;strong&gt; ... &lt;/strong&gt;</dt>
+                    <dd>Makes text bold - emphasize</dd>
+        
+                    <dt>&lt;b&gt; ... &lt;/b&gt;</dt>
+                    <dd>Makes text bold - emphasize</dd>
+        
+                    <dt>&lt;em&gt; ... &lt;/em&gt;</dt>
+                    <dd>Makes text italic - emphasize</dd>
+        
+                    <dt>&lt;i&gt; ... &lt;/i&gt;</dt>
+                    <dd>Males text italic - not emphasize</dd>
+        
+                    <dt>&lt;cite&gt; ... &lt;/cite&gt;</dt>
+                    <dd>Citing author of a quote</dd>
+        
+                    <dt>&lt;blockquote&gt; ... &lt;/blockquote&gt;</dt>
+                    <dd>Creates quotes</dd>
+        
+                    <dt>&lt;q&gt; ... &lt;/q&gt;</dt>
+                    <dd>Similar to <code>blockquote</code> but shorter</dd>
+        
+                    <dt>&lt;address&gt; ... &lt;/address&gt;</dt>
+                    <dd>Specifying author's contact details</dd>
+        
+                    <dt>&lt;dfn&gt; ... &lt;/dfn&gt;</dt>
+                    <dd>Dedicated for definitions</dd>
+        
+                    <dt>&lt;code&gt; ... &lt;/code&gt;</dt>
+                    <dd>Display code snippet</dd>
+        
+                    <dt>&lt;sub&gt; ... &lt;/sub&gt;</dt>
+                    <dd>Writing subscript (smaller fonts just below the mid-point of normal font)</dd>
+        
+                    <dt>&lt;sup&gt; ... &lt;/sup&gt;</dt>
+                    <dd>Similar to sub - but for superscripting</dd>
+        
+                </div>
+        
+                <div id="links" class="category-html">
+                    <h2>Links</h2>
+        
+                    <dt>&lt;a href=""&gt; ... &lt;/a&gt;</dt>
+                    <dd>Anchor Tag. Primarily for including hyperlinks</dd>
+        
+                    <dt>&lt;a href="mailto."&gt; ... &lt;/a&gt;</dt>
+                    <dd>Dedicated to sending emails</dd>
+        
+                    <dt>&lt;a href="tel://###-###&gt; ... &lt;/a&gt;</dt>
+                    <dd>For mentioning contact numbrers, beneficial for mobile users - only</dd>
+        
+                    <dt>&lt;a href="#name"&gt; ... &lt;/a&gt;</dt>
+                    <dd>Navigate to a div section of the webpage</dd>
+                </div>
+        
+                <div id="lists" class="category-html">
+                    <h2>Lists</h2>
+        
+                    <dt>&lt;ol&gt; ... &lt;/ol&gt;</dt>
+                    <dd>Numbered list of items</dd>
+        
+                    <dt>&lt;ul&gt; ... &lt;/ul&gt;</dt>
+                    <dd>Unorderd list of items</dd>
+        
+                    <dt>&lt;li&gt; ... &lt;/li&gt;</dt>
+                    <dd>Individual items as part of a list</dd>
+                    
+                    <dt>&lt;dl&gt; ... &lt;/dl&gt;</dt>
+                    <dd>Lists of items with deinitions</dd>
+        
+                    <dt>&lt;dt&gt; ... &lt;/dt&gt;</dt>
+                    <dd>Definition of a single term inline with body content</dd>
+        
+                    <dt>&lt;dd&gt; ... &lt;/dd&gt;</dt>
+                    <dd>Description for the defined term</dd>
+                </div>
+        
+                <div id="forms" class="category-html">
+                    <h2>Forms</h2>
+        
+                    <dt>&lt;form&gt; ... &lt;/form&gt;</dt>
+                    <dd>Create a form</dd>
+        
+                    <dt>action="url"</dt>
+                    <dd>The form data will be submitted to the url</dd>
+        
+                    <dt>method=""</dt>
+                    <dd>Specifies which HTTP method(POST or GET) would be used to submit</dd>
+        
+                    <dt>enctyoe=""</dt>
+                    <dd>Only for POST method, this dictates the data encoding scheme to be used when the form is submitted</dd>
+        
+                    <dt>autocomplete</dt>
+                    <dd>Determines if the form auto-complete enabled</dd>
+        
+                    <dt>novalidate</dt>
+                    <dd>Determines whether the form should be validated befor submission</dd>
+        
+                    <dt>accep-charsets</dt>
+                    <dd>Determines character encodings when form is submitted</dd>
+        
+                    <dt>target</dt>
+                    <dd>After submission, the form response is displayed wherever this refers to, usually has the following values: _blank, _self, _parent, _top</dd>
+        
+                    <dt>&lt;fieldset&gt; ... &lt;/fieldset&gt;</dt>
+                    <dd>Identifies the group of all fields in the form</dd>
+                    
+                    <dt>&lt;label&gt; ... &lt;/label&gt;</dt>
+                    <dd>This is used to label a field in the form</dd>
+        
+                    <dt>&lt;legend&gt; ... &lt;/legend&gt;</dt>
+                    <dd>This operates as a caption for the &lt;fieldset&gt; element</dd>
+        
+                    <dt>&lt;input&gt;</dt>
+                    <dd>This tag is used to take input from the user.
+                        Input type is determined by a number of attributes</dd>
+                </div>
+        
+                <div id="input-type-attributes" class="category-html">
+                    <h2>Input Type Attributes</h2>
+        
+                    <dt>type="</dt>
+                    <dd>Determines which type of input (text, dates, password) is requestet from the user</dd>
+        
+                    <dt>name=""</dt>
+                    <dd>Specifies the name of the input field</dd>
+        
+                    <dt>value=""</dt>
+                    <dd>Specifies the value contained currently in the input field</dd>
+        
+                    <dt>size=""</dt>
+                    <dd>Determines the input element width (number of characters)</dd>
+        
+                    <dt>maxlength=""</dt>
+                    <dd>Specifies the most input field characters allowed</dd>
+        
+                    <dt>required</dt>
+                    <dd>Specifies whether choosing an option/s is necessary for form submission</dd>
+        
+                    <dt>width=""</dt>
+                    <dd>Specifies form width in px or %</dd>
+        
+                    <dt>height=""</dt>
+                    <dd>Specifies form height in px or %</dd>
+        
+                    <dt>placeholder=""</dt>
+                    <dd>Give hints to the user about the nature of the requested data</dd>
+        
+                    <dt>pattern=""</dt>
+                    <dd>Specifies a regular expression, which can be used to look for patterns in the user's text</dd>
+        
+                    <dt>min=""</dt>
+                    <dd>Min value allowed for an &lt;input&gt; element</dd>
+        
+                    <dt>max=""</dt>
+                    <dd>Max value allowed for an &lt;input&gt; element</dd>
+        
+                    <dt>autofocus</dt>
+                    <dd>Specifies that a drop-down list automatically comes into focus after a page loads</dd>
+        
+                    <dt>disabled</dt>
+                    <dd>Disable the input element. User can no longer enter data</dd>
+        
+                    <dt>&lt;textarea&gt; ... &lt;/textarea&gt;</dt>
+                    <dd>For longer strings of input. Used to get multi-sentence text from the user</dd>
+        
+                    <dt>&lt;select&gt; ... &lt;/select&gt;</dt>
+                    <dd>Specifies a list of options which the user can choose from</dd>
+        
+                </div>
+        
+                <div id="select-attributes" class="category-html">
+                    <h2>Select Attributes</h2>
+        
+                    <dt>name=""</dt>
+                    <dd>Name of a particular list of options</dd>
+        
+                    <dt>size=""</dt>
+                    <dd>Total number of options given to the user</dd>
+        
+                    <dt>multiple</dt>
+                    <dd>States whether the user can choose multiple options from the list</dd>
+        
+                    <dt>required</dt>
+                    <dd>Specifies whether choosing an option/s is necessary for form submission</dd>
+        
+                    <dt>autofocus</dt>
+                    <dd>Specifies that a drop-down list automatically comes into focus after a page loads</dd>
+        
+                    <dt>&lt;option&gt; ... &lt;/option&gt;</dt>
+                    <dd>Listing individual items in the list of options</dd>
+                </div>
+        
+                <div id="option-attributes" class="category-html">
+                    <h2>Option Attributes</h2>
+        
+                    <dt>value=""</dt>
+                    <dd>Text visible to the user for any given option</dd>
+        
+                    <dt>selected</dt>
+                    <dd>Determines which option is selected by default when the form loads</dd>
+        
+                    <dt>&lt;button&gt; ... &lt;/button&gt;</dt>
+                    <dd>Creating a button for form submission</dd>
+                </div>
+        
+                <div id="tables" class="category-html">
+                    <h2>Tables</h2>
+        
+                    <dt>&lt;table&gt; ... &lt;/table&gt;</dt>
+                    <dd>Marks a table in a webpage</dd>
+        
+                    <dt>&lt;caption&gt; ... &lt;/caption&gt;</dt>
+                    <dd>Description of the table is placed here</dd>
+        
+                    <dt>&lt;thead&gt; ... &lt;/thead&gt;</dt>
+                    <dd>Table head</dd>
+        
+                    <dt>&lt;tbody&gt; ... &lt;/tbody&gt;</dt>
+                    <dd>Table body</dd>
+        
+                    <dt>&lt;tfoot&gt; ... &lt;/tfoot&gt;</dt>
+                    <dd>Table footer</dd>
+        
+                    <dt>&lt;tr&gt; ... &lt;/tr&gt;</dt>
+                    <dd>Denotes a single row in a table</dd>
+        
+                    <dt>&lt;th&gt; ... &lt;/th&gt;</dt>
+                    <dd>The value of a heading of a table’s column</dd>
+        
+                    <dt>&lt;td&gt; ... &lt;/td&gt;</dt>
+                    <dd>A single cell of a table. Contains the actual value/data</dd>
+        
+                    <dt>&lt;colgroup&gt; ... &lt;/colgroup&gt;</dt>
+                    <dd>Grouping columns together</dd>
+        
+                    <dt>&lt;col&gt;</dt>
+                    <dd>Denotes a column inside a table</dd>
+                </div>
+        
+                <div id="object-iframes" class="category-html">
+                    <h2>Object iFrames</h2>
+        
+                    <dt>&lt;object&gt; ... &lt;/object&gt;</dt>
+                    <dd>This tag is used to embed additional multimedia into a webpage. Can be audio, video, document (pdf) etc.</dd>
+        
+                    <dt>height=""</dt>
+                    <dd>Specifies iframe height in px or %</dd>
+        
+                    <dt>width=""</dt>
+                    <dd>Specifies iframe width in px or %</dd>
+        
+                    <dt>type=""</dt>
+                    <dd>The type/format of the object’s contents</dd>
+        
+                    <dt>&lt;iframe&gt; ... &lt;/iframe&gt;</dt>
+                    <dd>An inline block of content, this is used as a container for multimedia in a flexible manner. It floats inside
+                        a webpage, meaning it is placed relative to other webpage items</dd>
+                </div>
+        
+                <div id="embed-attributes" class="category-html">
+                    <h2>Embed Attributes</h2>
+        
+                    <dt>height=""</dt>
+                    <dd>Specifies embedded item height</dd>
+        
+                    <dt>width=""</dt>
+                    <dd>Specifies embedded item width</dd>
+        
+                    <dt>type=""</dt>
+                    <dd>The type or format of the mbedded content</dd>
+        
+                    <dt>src=""</dt>
+                    <dd>The URL/path of the embedded item</dd>
+                </div>
+        
+                <div id="iframe-attributes" class="category-html">
+                    <h2>iFrame Attributes</h2>
+        
+                    <dt>name=""</dt>
+                    <dd>The name of the iFrame</dd>
+        
+                    <dt>src=""</dt>
+                    <dd>The source URL/path of the multimedia object to be held inside the iFrame</dd>
+        
+                    <dt>srcdoc=""</dt>
+                    <dd>Any HTML content to be displayed inside the iFrame</dd>
+        
+                    <dt>height=""</dt>
+                    <dd>Determines the height of the iFrame</dd>
+        
+                    <dt>width=""</dt>
+                    <dd>Determines the width of the iFrame</dd>
+        
+                    <dt>&lt;param&gt;</dt>
+                    <dd>For iFrame customization. This includes additional parameters to go along with the content.
+                    </dd>
+        
+                    <dt>&lt;embed&gt; ... &lt;/embed&gt;</dt>
+                    <dd>This is used to embed external objects, like plugins (e.g. a flash video)</dd>
+                </div>
+        
+                <div id="html5-new-tags" class="category-html">
+                    <h2>HTML5 New Tags</h2>
+        
+                    <dt>&lt;header&gt; ... &lt;/header&gt;</dt>
+                    <dd>Specifies the webpage header - can be used for objects</dd>
+        
+                    <dt>&lt;footer&gt; ... &lt;/footer&gt;</dt>
+                    <dd>Specifies the webpage footer - can be used for objects</dd>
+        
+                    <dt>&lt;main&gt; ... &lt;/main&gt;</dt>
+                    <dd>Specifies the main content</dd>
+        
+                    <dt>&lt;article&gt; ... &lt;/article&gt;</dt>
+                    <dd>Denotes an aritcle</dd>
+        
+                    <dt>&lt;aside&gt; ... &lt;/aside&gt;</dt>
+                    <dd>Denotes content displayed in a sidebar of the webpage</dd>
+        
+                    <dt>&lt;section&gt; ... &lt;/section&gt;</dt>
+                    <dd>Specifies a particular section</dd>
+        
+                    <dt>&lt;details&gt; ... &lt;/details&gt;</dt>
+                    <dd>Additonal information. Users has the option to view or hide this</dd>
+        
+                    <dt>&lt;summary&gt; ... &lt;/summary&gt;</dt>
+                    <dd>Heading for the <code>details</code> tag - always visible</dd>
+        
+                    <dt>&lt;dialog&gt; ... &lt;/dialog&gt;</dt>
+                    <dd>Create a dialog box</dd>
+        
+                    <dt>&lt;figure&gt; ... &lt;/figure&gt;</dt>
+                    <dd>Reserved for figures (diagrams, charts)</dd>
+        
+                    <dt>&lt;figcaption&gt; ... &lt;/figcaption&gt;</dt>
+                    <dd>Descripton of the figure</dd>
+        
+                    <dt>&lt;mark&gt; ... &lt;/mark&gt;</dt>
+                    <dd>Highlight a particular portion of the text</dd>
+        
+                    <dt>&lt;nav&gt; ... &lt;/nav&gt;</dt>
+                    <dd>Navigation links for the webpage</dd>
+        
+                    <dt>&lt;menuitem&gt; ... &lt;/menuitem&gt;</dt>
+                    <dd>Particular item from a list or a menu</dd>
+        
+                    <dt>&lt;meter&gt; ... &lt;/meter&gt;</dt>
+                    <dd>Measure data within a given range</dd>
+        
+                    <dt>&lt;progress&gt; ... &lt;/progress&gt;</dt>
+                    <dd>Progress bar</dd>
+        
+                    <dt>&lt;rp&gt; ... &lt;/rp&gt;</dt>
+                    <dd>Showing text for browsers without ruby annotation support</dd>
+        
+                    <dt>&lt;rt&gt; ... &lt;/rt&gt;</dt>
+                    <dd>Displays East Asia typography character details</dd>
+        
+                    <dt>&lt;ruby&gt; ... &lt;/ruby&gt;</dt>
+                    <dd>Describes a Ruby annotation for East Asian typography</dd>
+        
+                    <dt>&lt;time&gt; ... &lt;/time&gt;</dt>
+                    <dd>Formatting date and time</dd>
+        
+                    <dt>&lt;wbr&gt;</dt>
+                    <dd>Line break within the content</dd>
+                </div>
+    
+                <div id="images" class="category-html">
+                    <h2>Images</h2>
+        
+                    <dt>&lt;img&gt;</dt>
+                    <dd>displays images </dd>
+        
+                    <dt>src=url""</dt>
+                    <dd>path where the image is located </dd>
+        
+                    <dt>alt="text"</dt>
+                    <dd>When users hovers mouse over the image the written text is displayed</dd>
+        
+                    <dt>height=""</dt>
+                    <dd>Specifies image height in px or %</dd>
+        
+                    <dt>width=""</dt>
+                    <dd>Specifies image width in px or %</dd>
+        
+                    <dt>align=""</dt>
+                    <dd>The relative alignment of the image</dd>
+        
+                    <dt>border=""</dt>
+                    <dd>Specifies border thickness of the image</dd>
+        
+                    <dt>&lt;map&gt; ... &lt;/map&gt;</dt>
+                    <dd>Denotes an interactive(clickable) image</dd>
+        
+                    <dt>&lt;map name=""&gt; ... &lt;/map&gt;</dt>
+                    <dd>Name of the map associated betwee nthe image and the map</dd>
+        
+                    <dt>&lt;area&gt;</dt>
+                    <dd>Specifies image map area</dd>
+        
+                    <dt>shape=""</dt>
+                    <dd>Shape of the area</dd>
+        
+                    <dt>coords=""</dt>
+                    <dd>Coordinates of the vital information of the shape</dd>
+                </div>
+        
+                <div id="video" class="category-html">
+                    <h2>Video</h2>
+        
+                    <dt>&lt;video&gt; ... &lt;/video&gt;</dt>
+                    <dd>Add a video on your webpage</dd>
+        
+                    <dt>controls</dt>
+                    <dd>Add control system</dd>
+        
+                    <dt>height</dt>
+                    <dd>Specifies video height in px or %</dd>
+        
+                    <dt>width</dt>
+                    <dd>Specifies video width in px or %</dd>
+        
+                    <dt>autoplay</dt>
+                    <dd>Start directly</dd>
+        
+                    <dt>loop</dt>
+                    <dd>The video will be looped</dd>
+        
+                    <dt>preload</dt>
+                    <dd>Specifies if and how the author thinks that the video should be loaded when the page loads</dd>
+        
+                    <dt>src=""</dt>
+                    <dd>Add the source code</dd>
+                </div>
+        
+                <div id="audio" class="category-html">
+                    <h2>Audio</h2>
+        
+                    <dt>&lt;audio&gt; ... &lt;/audtio&gt;</dt>
+                    <dd>Add audio on your webpage</dd>
+        
+                    <dt>autoplay</dt>
+                    <dd>Start directly</dd>
+        
+                    <dt>preload</dt>
+                    <dd>Specifies if and how the author thinks that the audio should be loaded when the page loads</dd>
+        
+                    <dt>loop</dt>
+                    <dd>The audio will be looped</dd>
+        
+                    <dt>controls</dt>
+                    <dd>Add control system</dd>
+        
+                    <dt>src=""</dt>
+                    <dd>Add the source code</dd>
+                </div>
+            </div>
+        </div>
+
+        <br><hr><br>
+
+        
+    </main>
+    </body>
+</html>
